@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Maxon
   class Store
     attr_reader :storage

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Maxon
   module Interface
     def self.notify(text)

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'maxon/executor'
 require_relative 'maxon/store'
 require_relative 'maxon/interface'
