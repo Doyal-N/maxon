@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 module Maxon
   class Executor
     LIGHT_SCRAB = /\b\d+\b/.freeze

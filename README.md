@@ -2,15 +2,29 @@
 
 # Maxon
 
-## An Introduction
+Script finds n largest numbers.
 
 ## Getting started
 
-## Install
+```
+git clone git@github.com:Doyal-N/maxon.git
+cd maxon
+export PATH="./bin:$PATH"
+cat 'filename' | maxon n
+```
 
-## Usage
+n - this your parametr
 
 ### Modes
+
+Script has 2 modes:
+
+1. Light - ```cat 'filename' | maxon 100```
+2. Deep - ```cat 'filename' | maxon 100 'any symbol'```
+
+Light - extracts only free-standing digits that are separated by a space on both sides
+
+Deep - extracts numbers and inside text too
 
 ### Requirements
 This gem requires Ruby 2.5+
