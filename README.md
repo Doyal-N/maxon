@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/Doyal-N/maxon.svg?branch=main)](https://travis-ci.com/github/Doyal-N/maxon)
+
 # Maxon
 
 ## An Introduction
