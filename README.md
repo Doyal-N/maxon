@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.com/Doyal-N/maxon.svg?branch=main)](https://travis-ci.com/github/Doyal-N/maxon)
 
 # Maxon
+![поиск цифр](https://github.com/Doyal-N/maxon/raw/main/num.jpg)
 
 Script finds n largest numbers.
 
