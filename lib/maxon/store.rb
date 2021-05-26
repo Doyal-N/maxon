@@ -13,7 +13,7 @@ module Maxon
       storage.max(@size)
     end
 
-    # depending on the situation, the release (cleaning) of unnecessary elements (more than parametr n)
+    # Stub. Depending on the situation, the release (cleaning) of unnecessary elements (more than parametr n)
     # can be done earlier, implement functional - delete nonmax elements
     def clear_storage
       storage.clear

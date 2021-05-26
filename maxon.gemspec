@@ -13,18 +13,17 @@ Gem::Specification.new do |spec|
   spec.platform              = Gem::Platform::RUBY
   spec.required_ruby_version = '>= 2.5.0'
 
-  spec.files = Dir['README.md', 'LICENSE', 'lib/**/*.rb',
-                  'maxon.gemspec', 'Gemfile',
-                  'Makefile']
+  spec.files = Dir['README.md', 'LICENSE', 'lib/**/*.rb', 'bin/*',
+                  'maxon.gemspec', 'Gemfile', 'Makefile', 'Rakefile']
 
   spec.extra_rdoc_files = ['README.md']
 
   spec.add_development_dependency 'bundler', '~> 2.2'
   spec.add_development_dependency 'rake', '~> 13.0'
-  spec.add_development_dependency 'rubocop', '~> 1.15'
-  spec.add_development_dependency 'rubocop-performance', '~> 1.11'
-  spec.add_development_dependency 'rubocop-rspec', '~> 2.3'
-  spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'codecov', '~> 0.5'
   spec.add_development_dependency 'simplecov', '~> 0.20'
+  spec.add_development_dependency 'rubocop', '~> 1.15'
+  spec.add_development_dependency 'rubocop-performance', '~> 1.11'
+  spec.add_development_dependency 'rspec', '~> 3.0'
+  spec.add_development_dependency 'rubocop-rspec', '~> 2.3'
 end

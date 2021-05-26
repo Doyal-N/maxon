@@ -28,4 +28,7 @@ Light - extracts only free-standing digits that are separated by a space on both
 Deep - extracts numbers and inside text too
 
 ### Requirements
-This gem requires Ruby 2.5+
+This gem requires Ruby 2.5 - 2.7
+
+TODO
+- Add support for 3.0 and more
